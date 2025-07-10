@@ -4,9 +4,9 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ✅ Allow CORS for your GitHub Pages site
+// ✅ Correct origin domain
 app.use(cors({
-  origin: 'https://harrygayla.github.io/devops-quote-app/'  // 👈 Your frontend domain
+  origin: 'https://harrygayla.github.io'
 }));
 
 const quotes = [
@@ -16,13 +16,13 @@ const quotes = [
   "Ship fast, learn faster 🏎️"
 ];
 
-// ✅ API endpoint for quote
+// ✅ Quote API
 app.get('/api/quote', (req, res) => {
   const random = Math.floor(Math.random() * quotes.length);
   res.json({ quote: quotes[random] });
 });
 
-// ✅ Root route (optional)
+// Optional home route
 app.get('/', (req, res) => {
   res.send("DevOps Quote Generator API is running 🎉");
 });
