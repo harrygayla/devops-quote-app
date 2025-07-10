@@ -27,3 +27,18 @@ A simple web app that serves random motivational DevOps quotes using a Node.js +
 - 🔁 Fully dynamic API-based quote fetching
 - 🧩 CORS configured for frontend-backend integration
 
+---
+
+### 🛠 Railway Logs
+
+#### 📡 HTTP Logs  
+![HTTP Logs](./httplogs.png)
+
+#### 🚀 Deployment Logs  
+![Deployment Logs](./deploylogs.png)
+
+#### 🧱 Build Logs  
+![Build Logs](./buildlogs.png)
+
+
+
