@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ Allow CORS for your GitHub Pages site
 app.use(cors({
-  origin: 'https://harrygayla.github.io'  // 👈 Your frontend domain
+  origin: 'https://harrygayla.github.io/devops-quote-app/'  // 👈 Your frontend domain
 }));
 
 const quotes = [
