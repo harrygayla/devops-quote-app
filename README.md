@@ -21,32 +21,9 @@ A simple web app that serves random motivational DevOps quotes using a Node.js +
 
 ---
 
-## 📸 Screenshot
-
-![DevOps Quote Generator Screenshot](./screenshot.png)
-
-
----
-
 ## 🛠 Features
 
 - 🎯 Get a random DevOps quote on page load or button click
 - 🔁 Fully dynamic API-based quote fetching
 - 🧩 CORS configured for frontend-backend integration
 
----
-
-## 🚀 Getting Started (Local Development)
-
-### 🖥️ Backend
-
-```bash
-# Clone the repo and go to backend folder
-git clone https://github.com/your-username/devops-quote-app.git
-cd devops-quote-app
-
-# Install dependencies
-npm install
-
-# Run server
-node server.js
