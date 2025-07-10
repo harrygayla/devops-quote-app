@@ -21,14 +21,15 @@
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
-        document.getElementById("quote").innerText = data.quote;
+        // Print the quote in the webpage
+        document.getElementById("quote").innerText = `"${data.quote}"`;
       } catch (error) {
         console.error("Error fetching quote:", error);
         document.getElementById("quote").innerText = "⚠️ Failed to load quote. Try again later.";
       }
     }
 
-    // Automatically fetch a quote on page load
+    // Automatically fetch a quote when the page loads
     window.addEventListener("DOMContentLoaded", getQuote);
   </script>
 </body>
