@@ -29,6 +29,15 @@ A simple web app that serves random motivational DevOps quotes using a Node.js +
 
 ---
 
+### Backend Commands
+
+```bash
+cd backend
+npm install
+node server.js
+```
+---
+
 ### 🛠 Railway Logs
 
 #### 📡 HTTP Logs  
